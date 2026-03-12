@@ -4,7 +4,7 @@
   "display_name": "Ollama",
   "metadata": {
     "source": "public-provider-conf",
-    "generated_at": "2026-03-05T18:24:55.926592"
+    "generated_at": "2026-03-12T10:54:23.260384"
   },
   "models": [
     {
@@ -13631,6 +13631,54 @@
         "input": [
           "text",
           "image"
+        ],
+        "output": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "nemotron-3-super:120b",
+      "name": "Nemotron 3 Super 120B",
+      "display_name": "Nemotron 3 Super 120B",
+      "type": "chat",
+      "reasoning": {
+        "supported": true,
+        "default": true
+      },
+      "tool_call": true,
+      "vision": false,
+      "limit": {
+        "context": 4096,
+        "output": 2048
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      }
+    },
+    {
+      "id": "nemotron-3-super:latest",
+      "name": "Nemotron 3 Super Latest",
+      "display_name": "Nemotron 3 Super Latest",
+      "type": "chat",
+      "reasoning": {
+        "supported": true,
+        "default": true
+      },
+      "tool_call": true,
+      "vision": false,
+      "limit": {
+        "context": 4096,
+        "output": 2048
+      },
+      "modalities": {
+        "input": [
+          "text"
         ],
         "output": [
           "text"
